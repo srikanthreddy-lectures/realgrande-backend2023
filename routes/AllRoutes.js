@@ -1,5 +1,5 @@
 const express = require("express");
-const {Houses,Enquiries,Users} = require("../models/allSchemas");
+const {Houses,Enquiries,Users} = require("../models/AllSchemas");
 const allrouter = express();
 const multer = require('multer')
 let getFields=multer()
