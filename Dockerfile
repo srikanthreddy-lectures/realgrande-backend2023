@@ -1,9 +1,7 @@
 FROM node
 WORKDIR /app
 COPY . /app
-USER root
-RUN cp /home/ubuntu/backend/ /app
-USER node
+RUN sudo cp /home/ubuntu/backend/ /app
 RUN npm install
 CMD ["npm", "start"]
 EXPOSE 3002
