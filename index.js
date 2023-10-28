@@ -9,7 +9,7 @@ app.use(express.json());
  const cors = require('cors');
 
  let corsOptions ={
-   origin: "http://100.24.253.127:3002"
+   origin: "http://100.24.253.127"
  }
  app.use(cors(corsOptions));
 
